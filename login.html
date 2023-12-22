@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Login</a>
+            <a href="#">FAQ</a>
+            <a href="#" class="contact-link">Contact</a>
+        </nav>
+
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class='bx bx-search' ></i></button>
+
+        </form>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="text-sci">
+                <img src="kkuImage.png" alt="kku" width="28%" height="30%">
+                <h2>Time Table<br><span>Optimization</span></h2>
+            </div>
+        </div>
+
+        <div class="login-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Sign In</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="username" required>
+                        <label>Username</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="identity-box">
+                        <select name="identity" id="identity">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                        <label>Sign In As</label>
+                    </div>
+
+                    <div class="remember">
+                        <label><input type="checkbox">Remember me</label>
+                    </div>
+
+                    <button type="submit">Log in</button>
+
+                    <div class="forgot">
+                        <span class="icon"><i class='bx bx-lock'></i></span>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="login.js"></script>
+</body>
+</html>
