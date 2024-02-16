@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Project</h1>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Email or phone number" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Log in</button>
+        </form>
+        <p>Need help? <span id="helpLink">Click here</span></p>
+        <p>Don't have an account? <span id="signUpLink">Sign up</span></p>
+    </div>
+    <div class="container" id="captchaContainer" style="display:none;">
+        <div class="captcha"></div>
+        <button id="verifyCaptcha">Verify</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
